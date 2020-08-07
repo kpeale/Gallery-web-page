@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Nav Styling */
+
+#title{
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 15px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.header-description p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.title-image{
+    margin-left: 40px;
+}
+
+/* About section */
+#about{
+    margin-top: 11%;
+    margin-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 6%;
+}
+
+.about-description p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2;
+    margin-top: 30px;
+}
+
+/* Gallery Section */
+#gallery h2{
+    text-align: center;
+}
+
+.gallery-image{
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.img-kpeale{
+    margin: 10px;
+}
+
+/* Contact Section*/
+#contact{
+    margin-top: 100px;
+}
+#contact p{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.icons{
+    text-align: center;
+}
+
+.social-icons{
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.social-link{
+    text-decoration: none;
+}
+
+/* Footer styling*/
+footer{
+    text-align: center;
+    margin-top: 80px;
+}
