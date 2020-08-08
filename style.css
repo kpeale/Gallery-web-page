@@ -25,9 +25,7 @@ body{
 }
 
 .navbar-brand{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
+    font: bold 2.5rem 'Ubuntu', sans-serif;
 }
 
 .nav-item{
@@ -51,17 +49,13 @@ body{
 
 /* About section */
 #about{
-    margin-top: 11%;
-    margin-bottom: 100px;
-    padding-left: 5%;
-    padding-right: 6%;
+    margin: 11% 0 100px 0;
+    padding: 0 6% 0 5%;
 }
 
 .about-description p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 17px;
     font-weight: 500;
-    line-height: 2;
+    font: 17px/2 'Raleway', sans-serif;
     margin-top: 30px;
 }
 
@@ -72,8 +66,7 @@ body{
 
 .gallery-image{
     padding: 0;
-    margin-top: 40px;
-    margin-bottom: 70px;
+    margin: 40px 0 70px 0;
 }
 
 .img-kpeale{
@@ -83,19 +76,14 @@ body{
 /* Contact Section*/
 #contact{
     margin-top: 100px;
+    text-align: center;
 }
 #contact p{
-    text-align: center;
     font-size: 1.8rem;
     font-weight: bold;
 }
 
-.icons{
-    text-align: center;
-}
-
 .social-icons{
-    display: block;
     margin: 10px;
     font-size: 20px;
 }
